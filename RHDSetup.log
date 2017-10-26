@@ -1,0 +1,59 @@
+[ResponseResult]
+ResultCode=0
+[Install Progress]
+ Confirm Realtek Driver 
+ Check Operation System Version 
+ OS Information [WINMAJOR Number] = 10
+ OS Information [WINMAJOR String] = 10.0
+ OS Information [SYSINFO.nWinMajor] = 10
+ OS Information [SYSINFO.nWinMinor] = 0
+ OS Information [IsWin2000] = 0
+ OS Information [IsWinXP] = 0
+ OS Information [IsWin2003] = 0
+ OS Information [IsVista] = 0
+ OS Information [IsWin2008] = 0
+ OS Information [IsWin7] = 0
+ OS Information [IsWin8] = 0
+ OS Information [IsWin8.1] = 0
+ OS Information [IsWin10] = 1
+ OS Information [IsWin2008R2x64] = 0
+ OS Information [IsMCE] = 0
+ OS Information [IsServer] = 0
+ OS Information [Service Pack] = 0
+ OS Information [x64] = 1
+ Operation System was Windows x64
+ Rtlupd [GetRtlupdForPackage] = 1
+ Rtlupd version [C:\ProgramData\Samsung\SWUpdate\Temp\Packages\a0861503-eef6-46dd-a0c2-30d0e8ee1cc4\sounddrv\Win64\RtlUpd64.exe] = 3.0.0.3
+ Rtkupd version [\] = 
+ Current use Rtlupd version [C:\ProgramData\Samsung\SWUpdate\Temp\Packages\a0861503-eef6-46dd-a0c2-30d0e8ee1cc4\sounddrv\Win64\RtlUpd64.exe] = 3.0.0.3
+ Default Path [WDMDir] = Win64
+ Default Path [RtkAudioDir] = C:\Program Files (x86)\Realtek\Audio
+ Default Path [RtkAudioDir x64] = C:\Program Files\Realtek\Audio
+ Default Path [RtlTempDir] = C:\Program Files (x86)\Realtek\Audio\Drivers
+ Default Path [RtkHDADrvDir] = C:\Program Files (x86)\Realtek\Audio\Drivers\Win64
+ Default Path [RtkHDMIDrvDir] = C:\Program Files (x86)\Realtek\Audio\Drivers\HDMI\XP2K
+ Default Path [RtlPFHDADir] = C:\Program Files\Realtek\Audio\HDA
+ Default Path [bUSBDrvExist] = 0
+ Default Path [USBDrvDir] = C:\ProgramData\Samsung\SWUpdate\Temp\Packages\a0861503-eef6-46dd-a0c2-30d0e8ee1cc4\sounddrv\USBAud
+ Default Path [RtkUSBDrvDir] = C:\Program Files (x86)\Realtek\Audio\USBAud\Driver
+ Default Path [RtkIntelHDASSTPath] = C:\Program Files (x86)\Realtek\Audio\Drivers\IntelHDASST
+ Default Registry key [Installer Base Key] = SOFTWARE\Realtek\Audio\Installer
+ Current model : Samsung
+ Current driver version = 6.0.1.7904  x64 Edition
+ 
+ Realtek HD Audio Driver Win64 Directory Exist .
+ Status - OnMoveData
+ Status - ProgramFiles_Installing
+ delete C:\Program Files (x86)\Realtek\Audio\Drivers\Win64
+ Copy Realtek HD Audio Driver from Win64 Directory
+ Execute RTHDCPL.exe -Q to Stop it from C:\Program Files\Realtek\Audio\HDA
+ Execute RtHDVBg.exe /Q to Stop it from C:\Program Files\Realtek\Audio\HDA
+ Run RtlUpd64.exe : C:\Program Files (x86)\Realtek\Audio\Drivers\RtlUpd64.exe --- > -s -cb -nrg2709 (TRUE)
+ Status - ProgramFiles_Installed
+ Copy .dat and .ini files
+ Install Realtek HD Audio Audio Driver 
+ Run RtlUpd64.exe : C:\Program Files (x86)\Realtek\Audio\Drivers\RtlUpd64.exe --- > -u  -fasi-s -fi -nrg2709 (TRUE)
+ -->Realtek HD Audio - SetupAPI result LAAW_PARAMETERS.nLaunchResult = -4
+ Special registry for hard-coding
+ Status - OnFirstUIAfter
+ Installer - OnEnd
